@@ -1,0 +1,41 @@
+.*{
+	background-color:#FFF;
+}
+.main{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.title{
+	color: #0948B2;
+	font-weight: normal;
+	padding-left:25%;
+	margin-top:100px;
+	margin-bottom:60px;
+	}
+	
+.edit{
+	color:#6C63FF;
+	border:none;
+	background-color:transparent;
+	cursor:pointer;
+	transition:1;
+	}
+	
+.edit:hover{
+	color:#4e50ae;
+	
+}
+
+.delete{
+	color:#ff0000;
+	border:none;
+	background-color:transparent;
+	cursor:pointer;
+	cursor:pointer;
+	transition:1;
+}
+
+.delete:hover{
+	color:#9f0000;
+}

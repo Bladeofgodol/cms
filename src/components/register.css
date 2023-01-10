@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prata&family=Unna&display=swap');
+
+:root{
+	--bc:#0948B2;
+	--text: #FFF;
+	--btn:#6C63FF;
+}
+
+.frad{
+	margin-left:40px;
+}
+
+.reg{
+	background-color: var(--bc);
+	color: var(--text);
+	min-height: 100vh;
+}
+
+.registration-container{
+  /* border:  2px solid black; */
+	width: 40%;
+	margin: auto;
+	padding: 15px;
+	padding-top: 100px;
+}
+.pagetitle{
+	text-align: center;
+}
+
+.radio{
+	margin-top:15px;
+}
+
+.names{
+  /* border:  2px solid black; */
+	display:flex;
+	justify-content: space-between;
+}
