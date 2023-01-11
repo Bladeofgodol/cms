@@ -1,0 +1,60 @@
+.intro{
+
+    background-color: #0948B2;
+    color: white;
+    display: flex;
+}
+.introtext{
+    width: 100%;
+    
+    padding: 10%;
+    
+    
+}
+.introimg{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 10%;
+   
+
+}
+.introimgi{
+    height:auto;
+    width: auto;
+    max-width: 100%;
+}
+.about{
+    background-color: #0948B2;
+    color: white;
+    display: flex;
+}
+.linktitle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3%;
+    font-weight: 600;
+}
+
+.links{
+    background-color: white;
+    padding-bottom: 10%;
+
+}
+.operations{
+    display: flex;
+    
+
+}
+.operationname{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.contact{
+    background-color: white;
+    display: flex;
+}
