@@ -4,56 +4,132 @@
     color: white;
     display: flex;
 }
+
 .introtext{
-    width: 100%;
-    
-    padding: 10%;
-    
-    
+    width: 100%;    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:12.5%;
+    padding-bottom: 5%;
+    align-items:center;
 }
+
+.greeting{
+	margin-bottom:10%;
+	margin-top:10%;
+}
+
+.description{
+	font-size:20px;
+}
+
 .introimg{
     width: 100%;
     justify-content: center;
     display: flex;
-    padding: 10%;
-   
-
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:10%;
+    padding-bottom: 5%;
+    
 }
-.introimgi{
+.introimage{
     height:auto;
     width: auto;
     max-width: 100%;
 }
-.about{
-    background-color: #0948B2;
-    color: white;
-    display: flex;
+
+.links{
+    background-color: white;
+    padding-bottom: 4%;
+
 }
+
 .linktitle{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 3%;
+    padding-top: 3%;
     font-weight: 600;
 }
 
-.links{
-    background-color: white;
-    padding-bottom: 10%;
 
-}
 .operations{
     display: flex;
+    justify-content: space-around;
     
-
 }
+
+
+.operation{
+    padding:3%;
+    background-color: white;
+    border: none;
+    cursor:pointer;
+        font-weight:600;
+        font-size:20px;
+}
+
+.operationimg{
+	display:flex;
+	justify-content: center;
+}
+
+.operationimage{
+	width:auto;
+	height:auto;
+	max-width:404.55px;
+	padding:5%;
+}
+
 .operationname{
     display: flex;
     width: 100%;
     justify-content: center;
-    
 
+    
 }
+
+.about{
+    background-color: #0948B2;
+    color: white;
+    padding:5%;
+}
+
+.abouttitle{
+	display:flex;
+	width:100%;
+	justify-content: center;
+}
+
+.aboutcontents{
+	display:flex;
+	padding-left:3%;
+	padding-right:3%;
+	justify-content:space-around;
+	padding-top:3%;
+}
+
+.aboutcontentimg{
+	width:90%;
+	padding:3%;
+	display:flex;
+	justify-content:center;
+	
+}
+
+.aboutcontenttext{
+	width:90%;
+	padding:3%;
+	
+}
+
+.aboutimg{
+	width:auto;
+	height:auto;
+	max-width:60%;
+}
+
 .contact{
     background-color: white;
     display: flex;

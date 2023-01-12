@@ -3,7 +3,7 @@ import { Button, TextInput, Select, Input, MantineProvider, Radio } from '@manti
 import { useId } from '@mantine/hooks';
 import InputMask from 'react-input-mask';
 import { DatePicker } from '@mantine/dates';
-import { IconChevronDown, IconAt, IconPhone, IconCalendar, IconIdBadge2, IconZip, IconWorld } from "@tabler/icons";
+import { IconChevronDown, IconAt, IconPhone, IconCalendar, IconIdBadge2, IconWorld } from "@tabler/icons";
 import './register.css';
 
 export default function Register() {
