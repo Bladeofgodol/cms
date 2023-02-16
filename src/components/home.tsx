@@ -1,5 +1,6 @@
 import React from "react";
 import './home.css';
+import { Link } from "react-router-dom";
 import introimage from './images/introimage.svg';
 import registerimage from './images/registerimage.svg';
 import viewimage from './images/viewimage.svg';
@@ -18,8 +19,7 @@ function Home() {
                 </div>
 
                 <div className="introimg">
-                    <img className="introimage" src={introimage} />
-
+                    <img className="introimage" src={introimage} alt=""/>
                 </div>
             </div>
 
@@ -30,26 +30,30 @@ function Home() {
                 </div>
 
                 <div className="operations">
-                    <button className="operation">
+                <Link to="/register">
+                <button className="operation">
                         <div className="operationimg">
-							<img className="operationimage" src={registerimage} />
+                            <img className="operationimage" src={registerimage} alt=""/>
                         </div>
                         <div className="operationname">
                             <h3>Register customer</h3>
                             
                         </div>
                     </button>
+				</Link>
+                    
 
-
+                <Link to="/view">
                     <button className="operation">
                         <div className="operationimg">
-							<img className="operationimage" src={viewimage} />
+                            <img className="operationimage" src={viewimage} alt=""/>
                         </div>
                         <div className="operationname">
 							<h3>View customer</h3>
                        
                         </div>
-                    </button>
+                        </button>
+                </Link>
                 </div>
             </div>
 
@@ -60,7 +64,7 @@ function Home() {
 				</div>
 				<div className="aboutcontents">
 					<div className="aboutcontentimg">
-						<img className="aboutimg" src={aboutimage} />
+                        <img className="aboutimg" src={aboutimage} alt="" />
 					</div>
 					<div className="aboutcontenttext">
 						<p>

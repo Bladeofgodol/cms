@@ -11,16 +11,18 @@ import {
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header />
-      <Router>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/view" element={<View />} />
         </Routes>
+      
+      </div>
       </Router>
-    </div>
   );
 }
 
